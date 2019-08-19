@@ -41,6 +41,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Label의 모서리를 둥글게
+        changeFontLabel.sizeToFit()
+        changeFontLabel.text = "ChangeFont"
+        changeFontLabel.backgroundColor = UIColor.yellow
         changeFontLabel.layer.cornerRadius = 50
         changeFontLabel.layer.masksToBounds = true
         // 이벤트가 queue에서 무시되고 재거되는지 여부를 결정하는 값
@@ -64,7 +67,19 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell
+        let cell = fontTableView.dequeueReusableCell(withIdentifier: self.cellIdentifier, for: indexPath)
+        let text = textData[indexPath.row]
+        
+        cell.textLabel?.text = text
+        cell.textLabel?.textColor = UIColor.black
+        // CustomFont를 TableViewCell Label 마다 적용
+        cell.textLabel?.font = UIFont(name: self.fontNames[fontRowIndex], size: 16)
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return textData.count
     }
     
     
