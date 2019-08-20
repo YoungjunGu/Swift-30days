@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF364C92230C360500EB5259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF364C91230C360500EB5259 /* AppDelegate.swift */; };
+		EF364C94230C360500EB5259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF364C93230C360500EB5259 /* ViewController.swift */; };
+		EF364C97230C360500EB5259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF364C95230C360500EB5259 /* Main.storyboard */; };
+		EF364C99230C360600EB5259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF364C98230C360600EB5259 /* Assets.xcassets */; };
+		EF364C9C230C360600EB5259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF364C9A230C360600EB5259 /* LaunchScreen.storyboard */; };
+		EF364CA7230C360600EB5259 /* PlayVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF364CA6230C360600EB5259 /* PlayVideoTests.swift */; };
+		EF364CB2230C360600EB5259 /* PlayVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF364CB1230C360600EB5259 /* PlayVideoUITests.swift */; };
+		EF364CC0230C3AEB00EB5259 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF364CBF230C3AEB00EB5259 /* Model.swift */; };
+		EF364CE5230C3BA700EB5259 /* videoScreenshot03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CC3230C3BA700EB5259 /* videoScreenshot03@2x.png */; };
+		EF364CE6230C3BA700EB5259 /* videoScreenshot03@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CC4230C3BA700EB5259 /* videoScreenshot03@3x.png */; };
+		EF364CE7230C3BA700EB5259 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = EF364CC5230C3BA700EB5259 /* Contents.json */; };
+		EF364CE8230C3BA700EB5259 /* videoScreenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CC6230C3BA700EB5259 /* videoScreenshot03.png */; };
+		EF364CE9230C3BA700EB5259 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = EF364CC8230C3BA700EB5259 /* Contents.json */; };
+		EF364CEA230C3BA700EB5259 /* videoScreenshot02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CC9230C3BA700EB5259 /* videoScreenshot02@2x.png */; };
+		EF364CEB230C3BA700EB5259 /* videoScreenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CCA230C3BA700EB5259 /* videoScreenshot02.png */; };
+		EF364CEC230C3BA700EB5259 /* videoScreenshot02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CCB230C3BA700EB5259 /* videoScreenshot02@3x.png */; };
+		EF364CED230C3BA700EB5259 /* videoScreenshot04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CCD230C3BA700EB5259 /* videoScreenshot04@2x.png */; };
+		EF364CEE230C3BA700EB5259 /* videoScreenshot04@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CCE230C3BA700EB5259 /* videoScreenshot04@3x.png */; };
+		EF364CEF230C3BA700EB5259 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = EF364CCF230C3BA700EB5259 /* Contents.json */; };
+		EF364CF0230C3BA700EB5259 /* videoScreenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CD0230C3BA700EB5259 /* videoScreenshot04.png */; };
+		EF364CF1230C3BA700EB5259 /* videoScreenshot01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CD2230C3BA700EB5259 /* videoScreenshot01@3x.png */; };
+		EF364CF2230C3BA700EB5259 /* videoScreenshot01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CD3230C3BA700EB5259 /* videoScreenshot01@2x.png */; };
+		EF364CF3230C3BA700EB5259 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = EF364CD4230C3BA700EB5259 /* Contents.json */; };
+		EF364CF4230C3BA700EB5259 /* videoScreenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CD5230C3BA700EB5259 /* videoScreenshot01.png */; };
+		EF364CF5230C3BA700EB5259 /* videoScreenshot05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CD7230C3BA700EB5259 /* videoScreenshot05@2x.png */; };
+		EF364CF6230C3BA700EB5259 /* videoScreenshot05@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CD8230C3BA700EB5259 /* videoScreenshot05@3x.png */; };
+		EF364CF7230C3BA700EB5259 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = EF364CD9230C3BA700EB5259 /* Contents.json */; };
+		EF364CF8230C3BA700EB5259 /* videoScreenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CDA230C3BA700EB5259 /* videoScreenshot05.png */; };
+		EF364CF9230C3BA700EB5259 /* playBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CDC230C3BA700EB5259 /* playBtn@2x.png */; };
+		EF364CFA230C3BA700EB5259 /* playBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CDD230C3BA700EB5259 /* playBtn@3x.png */; };
+		EF364CFB230C3BA700EB5259 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = EF364CDE230C3BA700EB5259 /* Contents.json */; };
+		EF364CFC230C3BA700EB5259 /* playBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CDF230C3BA700EB5259 /* playBtn.png */; };
+		EF364CFD230C3BA700EB5259 /* videoScreenshot06@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CE1230C3BA700EB5259 /* videoScreenshot06@3x.png */; };
+		EF364CFE230C3BA700EB5259 /* videoScreenshot06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CE2230C3BA700EB5259 /* videoScreenshot06@2x.png */; };
+		EF364CFF230C3BA700EB5259 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = EF364CE3230C3BA700EB5259 /* Contents.json */; };
+		EF364D00230C3BA700EB5259 /* videoScreenshot06.png in Resources */ = {isa = PBXBuildFile; fileRef = EF364CE4230C3BA700EB5259 /* videoScreenshot06.png */; };
+		EF364D02230C3C8200EB5259 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF364D01230C3C8200EB5259 /* VideoCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF364CA3230C360600EB5259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF364C86230C360500EB5259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF364C8D230C360500EB5259;
+			remoteInfo = PlayVideo;
+		};
+		EF364CAE230C360600EB5259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF364C86230C360500EB5259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF364C8D230C360500EB5259;
+			remoteInfo = PlayVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF364C8E230C360500EB5259 /* PlayVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF364C91230C360500EB5259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF364C93230C360500EB5259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF364C96230C360500EB5259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF364C98230C360600EB5259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF364C9B230C360600EB5259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF364C9D230C360600EB5259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF364CA2230C360600EB5259 /* PlayVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF364CA6230C360600EB5259 /* PlayVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoTests.swift; sourceTree = "<group>"; };
+		EF364CA8230C360600EB5259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF364CAD230C360600EB5259 /* PlayVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF364CB1230C360600EB5259 /* PlayVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoUITests.swift; sourceTree = "<group>"; };
+		EF364CB3230C360600EB5259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF364CBF230C3AEB00EB5259 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EF364CC3230C3BA700EB5259 /* videoScreenshot03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot03@2x.png"; sourceTree = "<group>"; };
+		EF364CC4230C3BA700EB5259 /* videoScreenshot03@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot03@3x.png"; sourceTree = "<group>"; };
+		EF364CC5230C3BA700EB5259 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		EF364CC6230C3BA700EB5259 /* videoScreenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoScreenshot03.png; sourceTree = "<group>"; };
+		EF364CC8230C3BA700EB5259 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		EF364CC9230C3BA700EB5259 /* videoScreenshot02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot02@2x.png"; sourceTree = "<group>"; };
+		EF364CCA230C3BA700EB5259 /* videoScreenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoScreenshot02.png; sourceTree = "<group>"; };
+		EF364CCB230C3BA700EB5259 /* videoScreenshot02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot02@3x.png"; sourceTree = "<group>"; };
+		EF364CCD230C3BA700EB5259 /* videoScreenshot04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot04@2x.png"; sourceTree = "<group>"; };
+		EF364CCE230C3BA700EB5259 /* videoScreenshot04@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot04@3x.png"; sourceTree = "<group>"; };
+		EF364CCF230C3BA700EB5259 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		EF364CD0230C3BA700EB5259 /* videoScreenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoScreenshot04.png; sourceTree = "<group>"; };
+		EF364CD2230C3BA700EB5259 /* videoScreenshot01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot01@3x.png"; sourceTree = "<group>"; };
+		EF364CD3230C3BA700EB5259 /* videoScreenshot01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot01@2x.png"; sourceTree = "<group>"; };
+		EF364CD4230C3BA700EB5259 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		EF364CD5230C3BA700EB5259 /* videoScreenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoScreenshot01.png; sourceTree = "<group>"; };
+		EF364CD7230C3BA700EB5259 /* videoScreenshot05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot05@2x.png"; sourceTree = "<group>"; };
+		EF364CD8230C3BA700EB5259 /* videoScreenshot05@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot05@3x.png"; sourceTree = "<group>"; };
+		EF364CD9230C3BA700EB5259 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		EF364CDA230C3BA700EB5259 /* videoScreenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoScreenshot05.png; sourceTree = "<group>"; };
+		EF364CDC230C3BA700EB5259 /* playBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playBtn@2x.png"; sourceTree = "<group>"; };
+		EF364CDD230C3BA700EB5259 /* playBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playBtn@3x.png"; sourceTree = "<group>"; };
+		EF364CDE230C3BA700EB5259 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		EF364CDF230C3BA700EB5259 /* playBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playBtn.png; sourceTree = "<group>"; };
+		EF364CE1230C3BA700EB5259 /* videoScreenshot06@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot06@3x.png"; sourceTree = "<group>"; };
+		EF364CE2230C3BA700EB5259 /* videoScreenshot06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoScreenshot06@2x.png"; sourceTree = "<group>"; };
+		EF364CE3230C3BA700EB5259 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		EF364CE4230C3BA700EB5259 /* videoScreenshot06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoScreenshot06.png; sourceTree = "<group>"; };
+		EF364D01230C3C8200EB5259 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF364C8B230C360500EB5259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF364C9F230C360600EB5259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF364CAA230C360600EB5259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF364C85230C360500EB5259 = {
+			isa = PBXGroup;
+			children = (
+				EF364C90230C360500EB5259 /* PlayVideo */,
+				EF364CA5230C360600EB5259 /* PlayVideoTests */,
+				EF364CB0230C360600EB5259 /* PlayVideoUITests */,
+				EF364C8F230C360500EB5259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF364C8F230C360500EB5259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF364C8E230C360500EB5259 /* PlayVideo.app */,
+				EF364CA2230C360600EB5259 /* PlayVideoTests.xctest */,
+				EF364CAD230C360600EB5259 /* PlayVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF364C90230C360500EB5259 /* PlayVideo */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CC1230C3B6F00EB5259 /* Assets */,
+				EF364C91230C360500EB5259 /* AppDelegate.swift */,
+				EF364C93230C360500EB5259 /* ViewController.swift */,
+				EF364C95230C360500EB5259 /* Main.storyboard */,
+				EF364C98230C360600EB5259 /* Assets.xcassets */,
+				EF364C9A230C360600EB5259 /* LaunchScreen.storyboard */,
+				EF364C9D230C360600EB5259 /* Info.plist */,
+				EF364CBF230C3AEB00EB5259 /* Model.swift */,
+				EF364D01230C3C8200EB5259 /* VideoCell.swift */,
+			);
+			path = PlayVideo;
+			sourceTree = "<group>";
+		};
+		EF364CA5230C360600EB5259 /* PlayVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CA6230C360600EB5259 /* PlayVideoTests.swift */,
+				EF364CA8230C360600EB5259 /* Info.plist */,
+			);
+			path = PlayVideoTests;
+			sourceTree = "<group>";
+		};
+		EF364CB0230C360600EB5259 /* PlayVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CB1230C360600EB5259 /* PlayVideoUITests.swift */,
+				EF364CB3230C360600EB5259 /* Info.plist */,
+			);
+			path = PlayVideoUITests;
+			sourceTree = "<group>";
+		};
+		EF364CC1230C3B6F00EB5259 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CDB230C3BA700EB5259 /* playBtn.imageset */,
+				EF364CD1230C3BA700EB5259 /* videoScreenshot01.imageset */,
+				EF364CC7230C3BA700EB5259 /* videoScreenshot02.imageset */,
+				EF364CC2230C3BA700EB5259 /* videoScreenshot03.imageset */,
+				EF364CCC230C3BA700EB5259 /* videoScreenshot04.imageset */,
+				EF364CD6230C3BA700EB5259 /* videoScreenshot05.imageset */,
+				EF364CE0230C3BA700EB5259 /* videoScreenshot06.imageset */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EF364CC2230C3BA700EB5259 /* videoScreenshot03.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CC3230C3BA700EB5259 /* videoScreenshot03@2x.png */,
+				EF364CC4230C3BA700EB5259 /* videoScreenshot03@3x.png */,
+				EF364CC5230C3BA700EB5259 /* Contents.json */,
+				EF364CC6230C3BA700EB5259 /* videoScreenshot03.png */,
+			);
+			name = videoScreenshot03.imageset;
+			path = "../../../../../../../Downloads/30DaysofSwift-master/Project 03 - PlayLocalVideo/PlayLocalVideo/Assets.xcassets/videoScreenshot03.imageset";
+			sourceTree = "<group>";
+		};
+		EF364CC7230C3BA700EB5259 /* videoScreenshot02.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CC8230C3BA700EB5259 /* Contents.json */,
+				EF364CC9230C3BA700EB5259 /* videoScreenshot02@2x.png */,
+				EF364CCA230C3BA700EB5259 /* videoScreenshot02.png */,
+				EF364CCB230C3BA700EB5259 /* videoScreenshot02@3x.png */,
+			);
+			name = videoScreenshot02.imageset;
+			path = "../../../../../../../Downloads/30DaysofSwift-master/Project 03 - PlayLocalVideo/PlayLocalVideo/Assets.xcassets/videoScreenshot02.imageset";
+			sourceTree = "<group>";
+		};
+		EF364CCC230C3BA700EB5259 /* videoScreenshot04.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CCD230C3BA700EB5259 /* videoScreenshot04@2x.png */,
+				EF364CCE230C3BA700EB5259 /* videoScreenshot04@3x.png */,
+				EF364CCF230C3BA700EB5259 /* Contents.json */,
+				EF364CD0230C3BA700EB5259 /* videoScreenshot04.png */,
+			);
+			name = videoScreenshot04.imageset;
+			path = "../../../../../../../Downloads/30DaysofSwift-master/Project 03 - PlayLocalVideo/PlayLocalVideo/Assets.xcassets/videoScreenshot04.imageset";
+			sourceTree = "<group>";
+		};
+		EF364CD1230C3BA700EB5259 /* videoScreenshot01.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CD2230C3BA700EB5259 /* videoScreenshot01@3x.png */,
+				EF364CD3230C3BA700EB5259 /* videoScreenshot01@2x.png */,
+				EF364CD4230C3BA700EB5259 /* Contents.json */,
+				EF364CD5230C3BA700EB5259 /* videoScreenshot01.png */,
+			);
+			name = videoScreenshot01.imageset;
+			path = "../../../../../../../Downloads/30DaysofSwift-master/Project 03 - PlayLocalVideo/PlayLocalVideo/Assets.xcassets/videoScreenshot01.imageset";
+			sourceTree = "<group>";
+		};
+		EF364CD6230C3BA700EB5259 /* videoScreenshot05.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CD7230C3BA700EB5259 /* videoScreenshot05@2x.png */,
+				EF364CD8230C3BA700EB5259 /* videoScreenshot05@3x.png */,
+				EF364CD9230C3BA700EB5259 /* Contents.json */,
+				EF364CDA230C3BA700EB5259 /* videoScreenshot05.png */,
+			);
+			name = videoScreenshot05.imageset;
+			path = "../../../../../../../Downloads/30DaysofSwift-master/Project 03 - PlayLocalVideo/PlayLocalVideo/Assets.xcassets/videoScreenshot05.imageset";
+			sourceTree = "<group>";
+		};
+		EF364CDB230C3BA700EB5259 /* playBtn.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CDC230C3BA700EB5259 /* playBtn@2x.png */,
+				EF364CDD230C3BA700EB5259 /* playBtn@3x.png */,
+				EF364CDE230C3BA700EB5259 /* Contents.json */,
+				EF364CDF230C3BA700EB5259 /* playBtn.png */,
+			);
+			name = playBtn.imageset;
+			path = "../../../../../../../Downloads/30DaysofSwift-master/Project 03 - PlayLocalVideo/PlayLocalVideo/Assets.xcassets/playBtn.imageset";
+			sourceTree = "<group>";
+		};
+		EF364CE0230C3BA700EB5259 /* videoScreenshot06.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				EF364CE1230C3BA700EB5259 /* videoScreenshot06@3x.png */,
+				EF364CE2230C3BA700EB5259 /* videoScreenshot06@2x.png */,
+				EF364CE3230C3BA700EB5259 /* Contents.json */,
+				EF364CE4230C3BA700EB5259 /* videoScreenshot06.png */,
+			);
+			name = videoScreenshot06.imageset;
+			path = "../../../../../../../Downloads/30DaysofSwift-master/Project 03 - PlayLocalVideo/PlayLocalVideo/Assets.xcassets/videoScreenshot06.imageset";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF364C8D230C360500EB5259 /* PlayVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF364CB6230C360600EB5259 /* Build configuration list for PBXNativeTarget "PlayVideo" */;
+			buildPhases = (
+				EF364C8A230C360500EB5259 /* Sources */,
+				EF364C8B230C360500EB5259 /* Frameworks */,
+				EF364C8C230C360500EB5259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayVideo;
+			productName = PlayVideo;
+			productReference = EF364C8E230C360500EB5259 /* PlayVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF364CA1230C360600EB5259 /* PlayVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF364CB9230C360600EB5259 /* Build configuration list for PBXNativeTarget "PlayVideoTests" */;
+			buildPhases = (
+				EF364C9E230C360600EB5259 /* Sources */,
+				EF364C9F230C360600EB5259 /* Frameworks */,
+				EF364CA0230C360600EB5259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF364CA4230C360600EB5259 /* PBXTargetDependency */,
+			);
+			name = PlayVideoTests;
+			productName = PlayVideoTests;
+			productReference = EF364CA2230C360600EB5259 /* PlayVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF364CAC230C360600EB5259 /* PlayVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF364CBC230C360600EB5259 /* Build configuration list for PBXNativeTarget "PlayVideoUITests" */;
+			buildPhases = (
+				EF364CA9230C360600EB5259 /* Sources */,
+				EF364CAA230C360600EB5259 /* Frameworks */,
+				EF364CAB230C360600EB5259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF364CAF230C360600EB5259 /* PBXTargetDependency */,
+			);
+			name = PlayVideoUITests;
+			productName = PlayVideoUITests;
+			productReference = EF364CAD230C360600EB5259 /* PlayVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF364C86230C360500EB5259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "youngjun goo";
+				TargetAttributes = {
+					EF364C8D230C360500EB5259 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EF364CA1230C360600EB5259 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EF364C8D230C360500EB5259;
+					};
+					EF364CAC230C360600EB5259 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EF364C8D230C360500EB5259;
+					};
+				};
+			};
+			buildConfigurationList = EF364C89230C360500EB5259 /* Build configuration list for PBXProject "PlayVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF364C85230C360500EB5259;
+			productRefGroup = EF364C8F230C360500EB5259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF364C8D230C360500EB5259 /* PlayVideo */,
+				EF364CA1230C360600EB5259 /* PlayVideoTests */,
+				EF364CAC230C360600EB5259 /* PlayVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF364C8C230C360500EB5259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF364C9C230C360600EB5259 /* LaunchScreen.storyboard in Resources */,
+				EF364CFA230C3BA700EB5259 /* playBtn@3x.png in Resources */,
+				EF364CEA230C3BA700EB5259 /* videoScreenshot02@2x.png in Resources */,
+				EF364CED230C3BA700EB5259 /* videoScreenshot04@2x.png in Resources */,
+				EF364CE5230C3BA700EB5259 /* videoScreenshot03@2x.png in Resources */,
+				EF364CFF230C3BA700EB5259 /* Contents.json in Resources */,
+				EF364CF6230C3BA700EB5259 /* videoScreenshot05@3x.png in Resources */,
+				EF364CFE230C3BA700EB5259 /* videoScreenshot06@2x.png in Resources */,
+				EF364C99230C360600EB5259 /* Assets.xcassets in Resources */,
+				EF364CFB230C3BA700EB5259 /* Contents.json in Resources */,
+				EF364CE9230C3BA700EB5259 /* Contents.json in Resources */,
+				EF364CF2230C3BA700EB5259 /* videoScreenshot01@2x.png in Resources */,
+				EF364CE8230C3BA700EB5259 /* videoScreenshot03.png in Resources */,
+				EF364CF7230C3BA700EB5259 /* Contents.json in Resources */,
+				EF364CEC230C3BA700EB5259 /* videoScreenshot02@3x.png in Resources */,
+				EF364C97230C360500EB5259 /* Main.storyboard in Resources */,
+				EF364CE6230C3BA700EB5259 /* videoScreenshot03@3x.png in Resources */,
+				EF364CF3230C3BA700EB5259 /* Contents.json in Resources */,
+				EF364CF0230C3BA700EB5259 /* videoScreenshot04.png in Resources */,
+				EF364CFD230C3BA700EB5259 /* videoScreenshot06@3x.png in Resources */,
+				EF364D00230C3BA700EB5259 /* videoScreenshot06.png in Resources */,
+				EF364CEE230C3BA700EB5259 /* videoScreenshot04@3x.png in Resources */,
+				EF364CF1230C3BA700EB5259 /* videoScreenshot01@3x.png in Resources */,
+				EF364CFC230C3BA700EB5259 /* playBtn.png in Resources */,
+				EF364CF5230C3BA700EB5259 /* videoScreenshot05@2x.png in Resources */,
+				EF364CF4230C3BA700EB5259 /* videoScreenshot01.png in Resources */,
+				EF364CF8230C3BA700EB5259 /* videoScreenshot05.png in Resources */,
+				EF364CE7230C3BA700EB5259 /* Contents.json in Resources */,
+				EF364CF9230C3BA700EB5259 /* playBtn@2x.png in Resources */,
+				EF364CEB230C3BA700EB5259 /* videoScreenshot02.png in Resources */,
+				EF364CEF230C3BA700EB5259 /* Contents.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF364CA0230C360600EB5259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF364CAB230C360600EB5259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF364C8A230C360500EB5259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF364CC0230C3AEB00EB5259 /* Model.swift in Sources */,
+				EF364D02230C3C8200EB5259 /* VideoCell.swift in Sources */,
+				EF364C94230C360500EB5259 /* ViewController.swift in Sources */,
+				EF364C92230C360500EB5259 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF364C9E230C360600EB5259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF364CA7230C360600EB5259 /* PlayVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF364CA9230C360600EB5259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF364CB2230C360600EB5259 /* PlayVideoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF364CA4230C360600EB5259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF364C8D230C360500EB5259 /* PlayVideo */;
+			targetProxy = EF364CA3230C360600EB5259 /* PBXContainerItemProxy */;
+		};
+		EF364CAF230C360600EB5259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF364C8D230C360500EB5259 /* PlayVideo */;
+			targetProxy = EF364CAE230C360600EB5259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF364C95230C360500EB5259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF364C96230C360500EB5259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF364C9A230C360600EB5259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF364C9B230C360600EB5259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF364CB4230C360600EB5259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF364CB5230C360600EB5259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF364CB7230C360600EB5259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CLQV3W6FV;
+				INFOPLIST_FILE = PlayVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.PlayVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF364CB8230C360600EB5259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CLQV3W6FV;
+				INFOPLIST_FILE = PlayVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.PlayVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF364CBA230C360600EB5259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CLQV3W6FV;
+				INFOPLIST_FILE = PlayVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.PlayVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayVideo.app/PlayVideo";
+			};
+			name = Debug;
+		};
+		EF364CBB230C360600EB5259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CLQV3W6FV;
+				INFOPLIST_FILE = PlayVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.PlayVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayVideo.app/PlayVideo";
+			};
+			name = Release;
+		};
+		EF364CBD230C360600EB5259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CLQV3W6FV;
+				INFOPLIST_FILE = PlayVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.PlayVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayVideo;
+			};
+			name = Debug;
+		};
+		EF364CBE230C360600EB5259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CLQV3W6FV;
+				INFOPLIST_FILE = PlayVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.PlayVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF364C89230C360500EB5259 /* Build configuration list for PBXProject "PlayVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF364CB4230C360600EB5259 /* Debug */,
+				EF364CB5230C360600EB5259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF364CB6230C360600EB5259 /* Build configuration list for PBXNativeTarget "PlayVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF364CB7230C360600EB5259 /* Debug */,
+				EF364CB8230C360600EB5259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF364CB9230C360600EB5259 /* Build configuration list for PBXNativeTarget "PlayVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF364CBA230C360600EB5259 /* Debug */,
+				EF364CBB230C360600EB5259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF364CBC230C360600EB5259 /* Build configuration list for PBXNativeTarget "PlayVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF364CBD230C360600EB5259 /* Debug */,
+				EF364CBE230C360600EB5259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF364C86230C360500EB5259 /* Project object */;
+}
