@@ -49,9 +49,11 @@ class ViewController: UIViewController {
     
     // MARK : video 재생
     @IBAction func playVideoButtonDidTouch(_ sender: AnyObject) {
-        let path = Bundle.main.path(forResource: "emoji zone", ofType: "mp4")
-        
-        playerView = AVPlayer(url: URL(fileURLWithPath: path!))
+        // local에 있는 동영상 파일의 경로를 찾아준다
+        // 파일을 추가할 때는 해당 파일의 inspector로 가서 project 멤버쉽을 체크 해주어야 경로를 찾을 수 있다
+        let path = Bundle.main.path(forResource: "sampleVideo", ofType: "mp4")
+        let url = URL(fileURLWithPath: path!)
+        playerView = AVPlayer(url: url)
         
         playViewController.player = playerView
         
