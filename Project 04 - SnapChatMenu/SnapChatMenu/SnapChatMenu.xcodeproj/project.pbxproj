@@ -16,6 +16,9 @@
 		EF37F2A9231615D30034A678 /* SnapChatMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37F2A8231615D30034A678 /* SnapChatMenuUITests.swift */; };
 		EF37F2B723161A5D0034A678 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37F2B623161A5D0034A678 /* CameraView.swift */; };
 		EF37F2B923161A6A0034A678 /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF37F2B823161A6A0034A678 /* CameraView.xib */; };
+		EFB772FE232159AD0058FC7C /* RightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB772FD232159AD0058FC7C /* RightView.swift */; };
+		EFB77300232159B90058FC7C /* RightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB772FF232159B90058FC7C /* RightView.xib */; };
+		EFB7730223215A5D0058FC7C /* LeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB7730123215A5D0058FC7C /* LeftView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		EF37F2AA231615D30034A678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF37F2B623161A5D0034A678 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		EF37F2B823161A6A0034A678 /* CameraView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
+		EFB772FD232159AD0058FC7C /* RightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightView.swift; sourceTree = "<group>"; };
+		EFB772FF232159B90058FC7C /* RightView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightView.xib; sourceTree = "<group>"; };
+		EFB7730123215A5D0058FC7C /* LeftView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				EF37F294231615D30034A678 /* Info.plist */,
 				EF37F2B623161A5D0034A678 /* CameraView.swift */,
 				EF37F2B823161A6A0034A678 /* CameraView.xib */,
+				EFB772FD232159AD0058FC7C /* RightView.swift */,
+				EFB772FF232159B90058FC7C /* RightView.xib */,
+				EFB7730123215A5D0058FC7C /* LeftView.xib */,
 			);
 			path = SnapChatMenu;
 			sourceTree = "<group>";
@@ -236,9 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF37F293231615D30034A678 /* LaunchScreen.storyboard in Resources */,
+				EFB77300232159B90058FC7C /* RightView.xib in Resources */,
 				EF37F290231615D30034A678 /* Assets.xcassets in Resources */,
 				EF37F28E231615D20034A678 /* Main.storyboard in Resources */,
 				EF37F2B923161A6A0034A678 /* CameraView.xib in Resources */,
+				EFB7730223215A5D0058FC7C /* LeftView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +277,7 @@
 				EF37F2B723161A5D0034A678 /* CameraView.swift in Sources */,
 				EF37F28B231615D20034A678 /* ViewController.swift in Sources */,
 				EF37F289231615D20034A678 /* AppDelegate.swift in Sources */,
+				EFB772FE232159AD0058FC7C /* RightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
