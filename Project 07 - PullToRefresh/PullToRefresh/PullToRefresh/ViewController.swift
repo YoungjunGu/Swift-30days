@@ -84,6 +84,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     //RoadEmoji
     
     @objc func didRoadEmoji() {
+        // DispatchQueue asyncAfter 시간을 설정하여 후에 코드를 실행
         DispatchQueue.main.asyncAfter(deadline:DispatchTime.now() + 3 ) {
             self.emojiData = [self.newFavoriteEmoji,self.favoriteEmoji][self.index]
             // refresh 종료
