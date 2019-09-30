@@ -20,7 +20,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setUpCALayerMask()
+        animateMask()
+    }
+    
+    func setUpCALayerMask() {
         self.mask = CALayer()
         self.mask!.contents = UIImage(named: "twitter")?.cgImage
         self.mask?.contentsGravity = CALayerContentsGravity.resizeAspect
@@ -30,8 +34,6 @@ class ViewController: UIViewController {
         self.imageView.layoutIfNeeded()
         self.mask?.position = CGPoint(x: self.imageView.frame.size.width / 2 , y: self.imageView.frame.height / 2)
         self.imageView.layer.mask = mask
-        
-        animateMask()
     }
     
     func animateMask() {
